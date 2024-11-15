@@ -74,44 +74,54 @@ namespace BibliotecaUTN
             return alumnos;
         }
         public static List<Prestamo> GenerarPrestamos()
+{
+    List<Prestamo> prestamos = new List<Prestamo>();
+
+    List<Alumno> alumnos = GenerarAlumnos();
+    List<Libro> libros = GenerarLibros();
+
+    if (alumnos.Count > 0 && libros.Count > 0)
+    {
+        foreach (var alumno in alumnos)
         {
-            List<Prestamo> prestamos = new List<Prestamo>();
-
-            
-            List<Alumno> alumnos = GenerarAlumnos();
-            List<Libro> libros = GenerarLibros();
-
-            if (alumnos.Count > 0 && libros.Count > 0)
+            if (!alumno.Deuda) 
             {
-                foreach (var alumno in alumnos)
+                foreach (var libro in libros)
                 {
-                    if (!alumno.Deuda) 
+                    Copia copiaDisponible = null;
+
+                 
+                    foreach (var copia in libro.Copias)
+                    {
+                        if (copia.Disponible)
+                        {
+                            copiaDisponible = copia;
+                            break;  
+                        }
+                    }
+
+                    if (copiaDisponible != null)
                     {
                         
-                        foreach (var libro in libros)
-                        {
-                            
-                            var copiaDisponible = libro.Copias.FirstOrDefault(c => c.Disponible);
-                            if (copiaDisponible != null)
-                            {
-                                
-                                Prestamo nuevoPrestamo = new Prestamo(alumno, copiaDisponible, DateTime.Today);
+                        Prestamo nuevoPrestamo = new Prestamo(alumno, copiaDisponible, DateTime.Today);
 
-                               
-                                prestamos.Add(nuevoPrestamo);
+                      
+                        prestamos.Add(nuevoPrestamo);
 
-                               
-                                copiaDisponible.Disponible = false;
+                       
+                        copiaDisponible.Disponible = false;
+                        alumno.Deuda = true;
 
-                                
-                                alumno.Deuda = true;
-
-                                break;  
-                            }
-                        }
+                        break;  
                     }
                 }
             }
+        }
+    }
+
+    return prestamos;
+}
+
 
             return prestamos;
         }
