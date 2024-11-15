@@ -1,0 +1,15 @@
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.AssemblyInfoInputs.cache
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.AssemblyInfo.cs
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.csproj.CoreCompileInputs.cache
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.sourcelink.json
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\bin\Debug\net8.0\BibliotecaUTN.exe
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\bin\Debug\net8.0\BibliotecaUTN.deps.json
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\bin\Debug\net8.0\BibliotecaUTN.runtimeconfig.json
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\bin\Debug\net8.0\BibliotecaUTN.dll
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\bin\Debug\net8.0\BibliotecaUTN.pdb
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.dll
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\refint\BibliotecaUTN.dll
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.pdb
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\BibliotecaUTN.genruntimeconfig.cache
+C:\Users\valen\Source\Repos\FRSN-Laboratorio2\BibliotecaUTN-Globalizador\BibliotecaUTN\obj\Debug\net8.0\ref\BibliotecaUTN.dll
